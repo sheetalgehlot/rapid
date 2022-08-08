@@ -1,0 +1,52 @@
+--root{
+    --black:#181510;
+    --golden1 : #CBB682;
+    --golden2: #A08C5B;
+    --golden3: #e6b371;
+    --golden4 : #E9DBBD;
+    --font2: 'Libre Baskerville', serif;
+    --font1: 'Oleo Script Swash Caps', cursive;
+
+}
+
+body {
+    background-image: linear-gradient(#e6b371,#CBB682,#E9DBBD);
+    font-family: var(--font2) !important;
+    justify-content: center;
+  }
+  
+.nav-link{
+    padding-left: 20px !important;
+}  
+
+.cardproduct{
+    background-image: linear-gradient(#CBB682,#E9DBBD);
+}
+
+.card{
+    background-image: linear-gradient(#E9DBBD,#CBB682);
+}
+
+.heads{
+    color: var(--golden3) !important;
+    font-family: var(--font1) !important;
+    font-size: 40px !important;
+}
+
+.texts{
+    color: var(--black);
+    text-align: center;
+    font-size: 20px !important;
+}
+
+.colors{
+    background-color: var(--golden3) !important;
+}
+
+.back{
+    background-color: var(--golden2);
+}
+
+i{
+    color: Dodgerblue;
+}
